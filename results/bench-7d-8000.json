@@ -1,0 +1,53 @@
+{
+ "tokenizer": "chars/4",
+ "budget_chars": 8000,
+ "days": 7.0,
+ "outputs": 12264,
+ "big_outputs": 1175,
+ "big_failed_with_error_line": 62,
+ "collapse_only_tokens": 8555089,
+ "methods": {
+  "raw": {
+   "tok": 8615451,
+   "tok_big": 4794215,
+   "err_kept": 62,
+   "errlines_total": 544,
+   "errlines_kept": 544
+  },
+  "head": {
+   "tok": 6171236,
+   "tok_big": 2350000,
+   "err_kept": 1,
+   "errlines_total": 544,
+   "errlines_kept": 238
+  },
+  "head+tail": {
+   "tok": 6178286,
+   "tok_big": 2357050,
+   "err_kept": 62,
+   "errlines_total": 544,
+   "errlines_kept": 400
+  },
+  "rtk log": {
+   "tok": 3913186,
+   "tok_big": 91950,
+   "err_kept": 3,
+   "errlines_total": 544,
+   "errlines_kept": 69
+  },
+  "head+tail@same-size": {
+   "tok": 5755320,
+   "tok_big": 1954560,
+   "err_kept": 62,
+   "errlines_total": 544,
+   "errlines_kept": 380
+  },
+  "squeeze": {
+   "tok": 5742187,
+   "tok_big": 1948388,
+   "err_kept": 62,
+   "errlines_total": 544,
+   "errlines_kept": 496
+  }
+ }
+}

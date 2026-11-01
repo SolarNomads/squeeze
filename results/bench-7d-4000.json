@@ -1,0 +1,36 @@
+{
+ "tokenizer": "chars/4",
+ "budget_chars": 4000,
+ "days": 7.0,
+ "outputs": 12253,
+ "big_outputs": 2399,
+ "big_failed_with_error_line": 86,
+ "collapse_only_tokens": 8552359,
+ "methods": {
+  "raw": {
+   "tok": 8612721,
+   "tok_big": 6519543,
+   "err_kept": 86
+  },
+  "head": {
+   "tok": 4492178,
+   "tok_big": 2399000,
+   "err_kept": 3
+  },
+  "head+tail": {
+   "tok": 4506572,
+   "tok_big": 2413394,
+   "err_kept": 86
+  },
+  "rtk log": {
+   "tok": 2243646,
+   "tok_big": 150468,
+   "err_kept": 7
+  },
+  "squeeze": {
+   "tok": 3954023,
+   "tok_big": 1876699,
+   "err_kept": 86
+  }
+ }
+}
